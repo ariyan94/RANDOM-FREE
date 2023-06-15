@@ -10,7 +10,8 @@ try:
         from concurrent.futures import ThreadPoolExecutor as tred
 except ModuleNotFoundError:
         os.system(f'pip install requests futures==2 > /dev/null')
-except:pass
+except:pass 
+logo	
  █████╗ ██████╗ ██╗██╗   ██╗ █████╗ ███╗   ██╗
 ██╔══██╗██╔══██╗██║╚██╗ ██╔╝██╔══██╗████╗  ██║
 ███████║██████╔╝██║ ╚████╔╝ ███████║██╔██╗ ██║
